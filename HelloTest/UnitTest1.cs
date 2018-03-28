@@ -8,9 +8,8 @@ namespace HelloTest
     {
         [TestMethod]
         public void TestMethod1()
-        {
-          
-            Assert.AreEqual("Hello MAhesh", Program.createMessage());
+        {          
+            Assert.AreEqual("Hello World", Program.createMessage());
         }
     }
 }
